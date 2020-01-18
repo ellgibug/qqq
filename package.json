@@ -1,0 +1,41 @@
+{
+  "name": "webpack2020",
+  "version": "1.0.0",
+  "description": "webpack test app",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.2",
+    "csv-loader": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "global": "^4.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "papaparse": "^5.1.1",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "xml-loader": "^1.2.1"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  }
+}
