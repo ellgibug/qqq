@@ -1,0 +1,17 @@
+@import "~normalize.css";
+@import "badscript.css";
+
+.example{
+  padding: 0 20px;
+  margin: 50px 0;
+  font-family: "BadScript", sans-serif;
+  &__title{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: #1976d2;
+  }
+  &__preview{
+    font-size: 14px;
+  }
+}

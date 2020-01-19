@@ -14,6 +14,7 @@ import '@fortawesome/fontawesome-free/js/brands'
 // import './styles/styles.css'
 // import './styles/sass.sass'
 import './styles/floors.scss'
+import './styles/example.scss'
 // import './styles/badscript.css'
  import './styles/caviardreams.css'
 

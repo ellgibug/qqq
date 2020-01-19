@@ -1,14 +1,11 @@
 @import "~normalize.css";
 @import "caviardreams.css";
 
-body{
+.wrapper{
   font-family: "CaviarDreams", sans-serif;
   font-size: 14px;
-}
-
-.wrapper{
   max-width: 1000px;
-  margin: 30px auto 0 auto;
+  margin: 50px auto;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 0 30px 0 rgba(50, 50, 50, 0.4);
